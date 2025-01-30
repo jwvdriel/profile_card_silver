@@ -1,5 +1,20 @@
+:root {
+  --base-font: 'Roboto', serif;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  min-width: 100%;
+}
+
+.card {
+  margin-top: 11.375rem; /*182px*/
+  background-color: black;
 }
